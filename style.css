@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem;
+    text-transform: capitalize;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+form{
+    width: 80%;
+    min-height: 30%;
+    text-align: left;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.control{
+    margin: 2rem 0;
+}
+
+.control-btn{
+    display: flex;
+    justify-content: end;
+}
+
+button{
+    padding: 0.5rem 0.75rem;
+    border: 1px solid lightsteelblue;
+    background-color: lightsteelblue;
+    color: black;
+    border-radius: 2px;
+    font-size: medium;
+}

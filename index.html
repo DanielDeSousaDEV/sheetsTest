@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheetsJS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>teste do SheetsJS</h2>
+    <form>
+        <div class="control">
+            <label for="Planilha">Planilha:</label>
+            <input id="Planilha" type="file" required accept=".xlsx">
+        </div>
+        <div class="control-btn">
+            <button type="submit">
+                Enviar
+            </button>
+        </div>
+    </form>
+    <table class="result">
+        
+    </table>
+</body>
+<!-- use version 0.20.3 -->
+<script lang="javascript" src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js" defer></script>
+<script lang="javascript" src="main.js" defer></script>
+</html>
