@@ -44,3 +44,17 @@ button{
     border-radius: 2px;
     font-size: medium;
 }
+
+table{
+    margin: 1rem 0;
+    width: 80%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid gray;
+    padding: 0.25rem;
+}
+tr:first-child{
+    font-weight: bold;
+}

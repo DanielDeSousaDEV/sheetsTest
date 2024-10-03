@@ -1,5 +1,5 @@
 let form = document.querySelector('form')
-let resultDiv = document.querySelector('result')
+let resultDiv = document.querySelector('.result')
 
 /**
  * @type(import("xlsx").IUtils)
@@ -55,7 +55,6 @@ form.addEventListener('submit', (event)=>{
  */
 function displayData(Sheet){
     let htmlTable = XLSX.utils.sheet_to_html(Sheet)
-    console.log(htmlTable);
     
     resultDiv.innerHTML = htmlTable
 }
